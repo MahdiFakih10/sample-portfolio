@@ -80,11 +80,12 @@ section {
 }
 
 .home-content {
-    max-width: 60rem;
+    max-width: 69%;
 
 }
 
 .home-content h1{
+    padding-top: 40%;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -217,6 +218,7 @@ section {
 .seperate {
     display: flex;
     justify-content: space-between;
+    width: auto;
 }
 
 aside{
@@ -226,23 +228,24 @@ aside{
     width: 50%;
     height: 100%;
     margin: 10rem 5rem;
+    
+}
+
+.home-imgHover{
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    width: 45%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid var(--bg-color);
+    transition: 2s;
     background: url('Images/Me.jpg') 50% 0 no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
-}
-
-.home-imgHover{
-    position: absolute;
-    top: 10rem;
-    right: 5rem;
-    width: 41.8%;
-    height: 100%;
-    background: transparent;
-    border: 2px solid var(--bg-color);
-    transition: 2s;
 }
 
 .home-imgHover:hover {
